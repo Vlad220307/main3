@@ -63,7 +63,7 @@ a.head-Contact {
   justify-items: center;
 
   background-repeat: no-repeat;
-  background-image: url("/img/bg.jpg");
+  background-image: url("./img/bg.jpg");
 }
 
 .img-text-frame {
