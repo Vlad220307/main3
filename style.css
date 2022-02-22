@@ -7,6 +7,7 @@ html {
   font-family: "Arial", "Helvetica", "sans-serif";
   width: 100%;
   height: 5000px;
+  overflow-x: hidden;
 }
 
 .head {
@@ -52,22 +53,32 @@ a.head-Contact {
   color: #676770;
 }
 
-.img-frame {
-  position: relative;
+.img-frame img {
   width: 100%;
   height: 950px;
   display: grid;
+
   align-items: center;
   justify-content: center;
   align-content: center;
   justify-items: center;
 
   background-repeat: no-repeat;
-  background-image: url("./img/bg.jpg");
+  /* background-image: url("./img/bg.jpg"); */
 }
 
+/* .img-frame1 {
+  width: 100%;
+  height: 950px;
+  display: grid;
+
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+} */
+
 .img-text-frame {
-  position: relative;
   width: 940px;
   height: 200px;
   display: flex;
@@ -345,12 +356,14 @@ a.head-Contact {
   width: 450px;
   display: flex;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 #services-img-second {
   width: 450px;
   display: flex;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .services-body-first_frame span {
@@ -449,4 +462,115 @@ a.head-Contact {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+
+.Tab {
+  display: grid;
+  width: 100%;
+  height: 1250px;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.tab-photo {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.tab-activ {
+  display: grid;
+  margin: 100px auto;
+
+  width: 1040px;
+  height: 1040px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-activ p {
+  font-family: "Open Sans";
+  font-size: 30px;
+  line-height: 36px;
+
+  text-align: center;
+  letter-spacing: 5px;
+
+  color: #676770;
+}
+
+.tab-span1 {
+  font-family: "Open Sans";
+  font-size: 17px;
+  line-height: 25px;
+
+  text-align: center;
+  color: #6a859c;
+}
+
+.tab-span {
+  font-family: "Open Sans";
+  font-size: 17px;
+  line-height: 20px;
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #8e8e9c;
+}
+
+.tab-buttons {
+  display: flex;
+  width: 700px;
+  height: 60px;
+  margin: 0 auto;
+
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-buttons span {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 21px;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.Tab_Button_1 {
+  display: flex;
+  width: 191px;
+  height: 21px;
+
+  justify-content: center;
+  background: #2e80b6;
+  border-radius: 5px;
+}
+
+.Tab_Button_2 {
+  display: flex;
+  width: 191px;
+  height: 21px;
+
+  justify-content: center;
+  background: #92a0ad;
+  border-radius: 5px;
+}
+
+.Tab_Button_3 {
+  display: flex;
+  width: 191px;
+  height: 21px;
+
+  justify-content: center;
+  background: #92a0ad;
+  border-radius: 5px;
 }
