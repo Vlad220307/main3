@@ -619,10 +619,74 @@ a.head-Contact {
     width: 150px;
     height: 45px;
   }
+  /* ===== */
+
+  /* ===== */
+  .to_do {
+    height: 1200px;
+  }
+  .to_do-frame {
+    height: 1200px;
+  }
+  .to_do-info {
+    height: 1050px;
+  }
+  .to_do-frame-text {
+    margin: 25px auto;
+  }
   .to_do-text {
     margin: 0 auto;
     width: 80%;
-    font-size: 10px;
-    line-height: 60px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .to_do-info {
+    display: grid;
+    margin: 10px auto;
+    width: 360px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .to_do-info img {
+    width: 95px;
+    height: 95px;
+    margin: 15px auto;
+  }
+
+  .to_do-info p {
+    width: 300px;
+    height: 20px;
+    margin: -40px auto;
+
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .to_do-info span {
+    display: grid;
+    width: 300px;
+    height: 20px;
+    margin: -40px auto;
+  }
+
+  .info-blok1 {
+    width: 320px;
+    height: 300px;
+    margin: 25px auto;
+  }
+  .info-blok2 {
+    width: 320px;
+    height: 300px;
+    margin: 25px auto;
+  }
+  .info-blok3 {
+    width: 320px;
+    height: 300px;
+    margin: 25px auto;
+  }
+  .services-frame-body {
   }
 }
