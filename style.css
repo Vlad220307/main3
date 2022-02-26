@@ -5,7 +5,7 @@ html {
   background-color: ffffff;
   color: rgb(0, 0, 0);
   font-family: "Arial", "Helvetica", "sans-serif";
-  width: 100%;
+  max-width: 100%;
   height: 5000px;
   overflow-x: hidden;
 }
@@ -24,13 +24,13 @@ html {
   border-radius: 5px;
 }
 .head {
-  width: 100%;
+  max-width: 100%;
   height: 60px;
 }
 
 .header {
   display: flex;
-  width: 80%;
+  width: 85%;
   height: 60px;
   margin: 0 auto;
   justify-content: space-between;
@@ -48,7 +48,7 @@ html {
 
 .head-text {
   display: flex;
-  width: 183px;
+  width: 185px;
   height: 60px;
 
   font-family: "Open Sans";
@@ -67,7 +67,7 @@ a.head-Contact {
 }
 
 .img-frame {
-  width: 100%;
+  max-width: 100%;
   height: 950px;
   display: grid;
 
@@ -81,7 +81,7 @@ a.head-Contact {
 }
 
 .img-text-frame {
-  width: 940px;
+  max-width: 940px;
   height: 200px;
   display: flex;
   text-align: center;
@@ -156,6 +156,8 @@ a.head-Contact {
 .to_do-frame {
   width: 1440px;
   height: 550px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   text-align: center;
   align-items: center;
@@ -163,7 +165,7 @@ a.head-Contact {
 }
 
 .to_do-frame-text {
-  width: 1440px;
+  max-width: 1440px;
   height: 100px;
 
   font-family: "Open Sans";
@@ -193,14 +195,14 @@ a.head-Contact {
 
 .to_do-text {
   margin: 0 auto;
-  width: 80%;
+  max-width: 80%;
   font-size: 21px;
   line-height: 80px;
 }
 
 .to_do-info {
   display: flex;
-  width: 1220px;
+  max-width: 1220px;
   height: 400px;
   margin: 50px auto;
 
@@ -211,19 +213,19 @@ a.head-Contact {
 
 .to_do-info img {
   display: grid;
-  width: 115px;
+  max-width: 115px;
   height: 115px;
   margin: 20px auto;
 }
 
 .to_do-info p {
   display: grid;
-  width: 350px;
-  height: 20px;
+  max-width: 350px;
+  height: 17px;
   margin: -40px auto;
 
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   text-align: center;
   letter-spacing: 7px;
@@ -233,7 +235,7 @@ a.head-Contact {
 
 .to_do-info span {
   display: grid;
-  width: 340px;
+  max-width: 340px;
   height: 20px;
   margin: -40px auto;
 
@@ -246,8 +248,9 @@ a.head-Contact {
 
 .info-blok1 {
   display: grid;
-  width: 380px;
+  max-width: 380px;
   height: 340px;
+  margin-left: 5px;
 
   border: 2px solid #dcebf7;
   box-sizing: border-box;
@@ -256,8 +259,9 @@ a.head-Contact {
 
 .info-blok2 {
   display: grid;
-  width: 380px;
+  max-width: 380px;
   height: 340px;
+  margin-left: 5px;
 
   border: 2px solid #dcebf7;
   box-sizing: border-box;
@@ -266,8 +270,9 @@ a.head-Contact {
 
 .info-blok3 {
   display: grid;
-  width: 380px;
+  max-width: 380px;
   height: 340px;
+  margin-left: 5px;
 
   border: 2px solid #dcebf7;
   box-sizing: border-box;
@@ -276,7 +281,7 @@ a.head-Contact {
 
 .services {
   display: grid;
-  width: 100%;
+  max-width: 100%;
   height: 950px;
 
   text-align: center;
@@ -288,7 +293,7 @@ a.head-Contact {
 
 .services-frame {
   display: grid;
-  width: 1100px;
+  max-width: 1100px;
   height: 780px;
   margin: 0 auto;
 
@@ -298,7 +303,7 @@ a.head-Contact {
 
 .services-frame-head {
   display: grid;
-  width: 1100px;
+  max-width: 1100px;
   height: 105px;
   margin: 0 auto;
 
@@ -331,7 +336,7 @@ a.head-Contact {
 
 .services-frame-body {
   display: flex;
-  width: 1100px;
+  max-width: 1100px;
   height: 600px;
   margin: 60px auto;
 
@@ -342,7 +347,7 @@ a.head-Contact {
 
 .services-body-first_frame {
   display: grid;
-  width: 480px;
+  max-width: 480px;
   height: 570px;
   margin: 0 auto;
 
@@ -353,7 +358,7 @@ a.head-Contact {
 
 .services-body-second_frame {
   display: grid;
-  width: 480px;
+  max-width: 480px;
   height: 570px;
   margin: 0 auto;
 
@@ -363,14 +368,14 @@ a.head-Contact {
 }
 
 #services-img-first {
-  width: 450px;
+  max-width: 450px;
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
 }
 
 #services-img-second {
-  width: 450px;
+  max-width: 450px;
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
@@ -402,6 +407,8 @@ a.head-Contact {
 
 .services-body-first_frame p {
   font-family: "Open Sans";
+  max-width: 90%;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 25px;
 
@@ -412,6 +419,8 @@ a.head-Contact {
 
 .services-body-second_frame p {
   font-family: "Open Sans";
+  max-width: 90%;
+  margin: 0 auto;
   font-size: 14px;
   line-height: 25px;
 
@@ -422,7 +431,7 @@ a.head-Contact {
 
 #services-button-first {
   display: flex;
-  width: 183px;
+  max-width: 183px;
   height: 43px;
   margin: 0 auto;
 
@@ -437,7 +446,7 @@ a.head-Contact {
 
 #services-button-second {
   display: flex;
-  width: 183px;
+  max-width: 183px;
   height: 43px;
   margin: 0 auto;
 
@@ -452,6 +461,7 @@ a.head-Contact {
 
 #services-button-second span {
   font-family: "Open Sans";
+  width: 183px;
   font-size: 16px;
   line-height: 21px;
 
@@ -464,6 +474,7 @@ a.head-Contact {
 
 #services-button-first span {
   font-family: "Open Sans";
+  width: 183px;
   font-size: 16px;
   line-height: 21px;
 
@@ -476,7 +487,7 @@ a.head-Contact {
 
 .Tab {
   display: grid;
-  width: 100%;
+  max-width: 100%;
   height: 1250px;
 
   text-align: center;
@@ -493,7 +504,7 @@ a.head-Contact {
   display: grid;
   margin: 100px auto;
 
-  width: 1040px;
+  max-width: 1040px;
   height: 1040px;
 
   text-align: center;
@@ -535,7 +546,7 @@ a.head-Contact {
 
 .tab-buttons {
   display: flex;
-  width: 700px;
+  max-width: 700px;
   height: 60px;
   margin: 0 auto;
 
@@ -557,7 +568,7 @@ a.head-Contact {
 
 .Tab_Button_1 {
   display: flex;
-  width: 191px;
+  max-width: 191px;
   height: 21px;
 
   justify-content: center;
@@ -567,7 +578,7 @@ a.head-Contact {
 
 .Tab_Button_2 {
   display: flex;
-  width: 191px;
+  max-width: 191px;
   height: 21px;
 
   justify-content: center;
@@ -577,7 +588,7 @@ a.head-Contact {
 
 .Tab_Button_3 {
   display: flex;
-  width: 191px;
+  max-width: 191px;
   height: 21px;
 
   justify-content: center;
@@ -585,43 +596,43 @@ a.head-Contact {
   border-radius: 5px;
 }
 
-@media (min-width: 360px) and (max-width: 540px) {
+@media (min-width: 320px) and (max-width: 540px) {
   .header {
     display: flex;
-    width: 370px;
+    max-width: 370px;
   }
   .head-logo {
     font-size: 30px;
   }
   .head-text {
-    width: 140px;
+    max-width: 120px;
     font-size: 15px;
   }
   .img-text-frame {
     height: 250px;
-    width: 80%;
+    max-width: 80%;
   }
   .img-text-frame span {
     font-size: 45px;
     line-height: 55px;
   }
   .img-button {
-    width: 320px;
+    max-width: 320px;
   }
   .img-text a {
     font-size: 14px;
   }
   #img-first-button {
-    width: 130px;
+    max-width: 130px;
     height: 45px;
   }
   #img-second-button {
-    width: 150px;
+    max-width: 150px;
     height: 45px;
   }
-  /* ===== */
+}
 
-  /* ===== */
+@media (min-width: 320px) and (max-width: 742px) {
   .to_do {
     height: 1200px;
   }
@@ -636,57 +647,160 @@ a.head-Contact {
   }
   .to_do-text {
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
     font-size: 16px;
     line-height: 50px;
   }
   .to_do-info {
     display: grid;
     margin: 10px auto;
-    width: 360px;
+    max-width: 360px;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
 
   .to_do-info img {
-    width: 95px;
+    max-width: 95px;
     height: 95px;
     margin: 15px auto;
   }
 
   .to_do-info p {
-    width: 300px;
+    max-width: 300px;
     height: 20px;
     margin: -40px auto;
 
     font-family: "Open Sans";
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
   }
 
   .to_do-info span {
     display: grid;
-    width: 300px;
+    max-width: 300px;
     height: 20px;
     margin: -40px auto;
   }
 
   .info-blok1 {
-    width: 320px;
+    max-width: 320px;
     height: 300px;
     margin: 25px auto;
   }
   .info-blok2 {
-    width: 320px;
+    max-width: 320px;
     height: 300px;
     margin: 25px auto;
   }
   .info-blok3 {
-    width: 320px;
+    max-width: 320px;
     height: 300px;
     margin: 25px auto;
   }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .services {
+    display: grid;
+    max-width: 100%;
+    height: 1500px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background: #192024;
+  }
+
+  .services-frame {
+    display: grid;
+    max-width: 1100px;
+    height: 1400px;
+    margin: 0 auto;
+
+    text-align: center;
+    justify-content: center;
+  }
+
+  .services-frame-head {
+    display: grid;
+    max-width: 1100px;
+    height: 125px;
+    margin: 0 auto;
+
+    text-align: center;
+    justify-content: center;
+  }
+
+  .services-frame-head span {
+    font-family: "Open Sans";
+    font-size: 40px;
+    height: 70px;
+
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .services-frame-head p {
+    font-family: "Open Sans";
+    font-size: 18px;
+    max-width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #e8e8e8;
+  }
+
   .services-frame-body {
+    display: grid;
+    max-width: 1100px;
+    height: 1200px;
+    margin: -80px auto;
+
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .services-body-first_frame {
+    display: grid;
+    max-width: 480px;
+    height: 570px;
+    margin: 0spx auto;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-body-second_frame {
+    display: grid;
+    max-width: 480px;
+    height: 570px;
+    margin: 10px auto;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-body-first_frame p {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  .services-body-second_frame p {
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: 13px;
   }
 }
