@@ -1,0 +1,244 @@
+@media (min-width: 320px) and (max-width: 540px) {
+  .header {
+    display: flex;
+    max-width: 370px;
+  }
+  .head-logo {
+    font-size: 30px;
+  }
+  .head-text {
+    max-width: 120px;
+    font-size: 15px;
+  }
+  .img-text-frame {
+    height: 250px;
+    max-width: 80%;
+  }
+  .img-text-frame span {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .img-button {
+    max-width: 320px;
+  }
+  .img-text a {
+    font-size: 14px;
+  }
+  #img-first-button {
+    max-width: 130px;
+    height: 45px;
+  }
+  #img-second-button {
+    max-width: 150px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 742px) {
+  .to_do {
+    height: 1200px;
+  }
+  .to_do-frame {
+    height: 1200px;
+  }
+  .to_do-info {
+    height: 1050px;
+  }
+  .to_do-frame-text {
+    margin: 25px auto;
+  }
+  .to_do-text {
+    margin: 0 auto;
+    max-width: 80%;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .to_do-info {
+    display: grid;
+    margin: 10px auto;
+    max-width: 360px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .to_do-info img {
+    max-width: 95px;
+    height: 95px;
+    margin: 15px auto;
+  }
+
+  .to_do-info p {
+    max-width: 300px;
+    height: 20px;
+    margin: -40px auto;
+
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .to_do-info span {
+    display: grid;
+    max-width: 300px;
+    height: 20px;
+    margin: -40px auto;
+  }
+
+  .info-blok1 {
+    max-width: 320px;
+    height: 300px;
+    margin: 25px auto;
+  }
+  .info-blok2 {
+    max-width: 320px;
+    height: 300px;
+    margin: 25px auto;
+  }
+  .info-blok3 {
+    max-width: 320px;
+    height: 300px;
+    margin: 25px auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .services {
+    display: grid;
+    max-width: 100%;
+    height: 1500px;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background: #192024;
+  }
+
+  .services-frame {
+    display: grid;
+    max-width: 1100px;
+    height: 1400px;
+    margin: 0 auto;
+
+    text-align: center;
+    justify-content: center;
+  }
+
+  .services-frame-head {
+    display: grid;
+    max-width: 1100px;
+    height: 125px;
+    margin: 0 auto;
+
+    text-align: center;
+    justify-content: center;
+  }
+
+  .services-frame-head span {
+    font-family: "Open Sans";
+    font-size: 40px;
+    height: 70px;
+
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .services-frame-head p {
+    font-family: "Open Sans";
+    font-size: 18px;
+    max-width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #e8e8e8;
+  }
+
+  .services-frame-body {
+    display: grid;
+    max-width: 1100px;
+    height: 1200px;
+    margin: -80px auto;
+
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .services-body-first_frame {
+    display: grid;
+    max-width: 480px;
+    height: 570px;
+    margin: 0spx auto;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-body-second_frame {
+    display: grid;
+    max-width: 480px;
+    height: 570px;
+    margin: 60px auto;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-body-first_frame p {
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  .services-body-second_frame p {
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 830px) {
+  .tab-span1 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 712px) {
+  .tab-buttons {
+    display: grid;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  .tab-activ {
+    margin: 40px auto;
+  }
+  .tab-span {
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin: 20px auto;
+  }
+  .tab-span1 {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .tab-span1 {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
