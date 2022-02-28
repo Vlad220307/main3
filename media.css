@@ -1,8 +1,13 @@
-@media (min-width: 0px) and (max-width: 9999px) {
+/* @media (min-width: 0px) and (max-width: 9999px) {
   body {
-    height: 5000px;
+    overflow-y: hidden;
+    height: 5200px;
   }
-}
+
+  html {
+    height: 5200px;
+  }
+} */
 
 @media (min-width: 320px) and (max-width: 540px) {
   .header {
