@@ -78,6 +78,8 @@ a.head-Contact {
 
   background-repeat: no-repeat;
   background-image: url("./img/bg.jpg");
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .img-text-frame {
@@ -216,6 +218,9 @@ a.head-Contact {
   max-width: 115px;
   height: 115px;
   margin: 20px auto;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .to_do-info p {
@@ -372,6 +377,9 @@ a.head-Contact {
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 #services-img-second {
@@ -379,6 +387,9 @@ a.head-Contact {
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .services-body-first_frame span {
@@ -498,6 +509,9 @@ a.head-Contact {
   display: flex;
   margin: 0 auto;
   border-radius: 5px;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .tab-activ {
