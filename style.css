@@ -109,6 +109,7 @@ a.head-Contact {
   background-image: url("./img/bg.jpg");
   overflow-y: hidden;
   overflow-x: hidden;
+  background-size: cover;
 }
 
 .img-text-frame {
